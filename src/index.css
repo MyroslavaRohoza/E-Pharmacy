@@ -9,4 +9,8 @@
   --background2: #f7f8fa;
   --background3: #ffffff;
   --decoration: #f9f9f9;
+  --confirmed: #8059e4;
+  --pending: #f79042;
+  --cancelled: #e85050;
+  --processing: #70a6e8;
 }
