@@ -1,5 +1,12 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
- 
-}
 
+  --main-black: #1d1e21;
+  --accent: #59b17a;
+  --accent2: #e85050;
+  --text: #dcdddf;
+  --background1: #e7f1ed;
+  --background2: #f7f8fa;
+  --background3: #ffffff;
+  --decoration: #f9f9f9;
+}

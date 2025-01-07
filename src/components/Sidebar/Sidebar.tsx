@@ -2,9 +2,9 @@ import SidebarMenu from "../SidebarMenu/SidebarMenu.tsx";
 
 function Sidebar() {
   return (
-    <div>
+    <aside>
       <SidebarMenu />
-    </div>
+    </aside>
   );
 }
 

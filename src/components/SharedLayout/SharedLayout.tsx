@@ -7,11 +7,11 @@ export type SharedProps = {
 
 function SharedLayout({ children }: SharedProps) {
   return (
-    <div>
+    <>
       <Header />
       <Sidebar />
-      {children}
-    </div>
+      <main>{children}</main>
+    </>
   );
 }
 
