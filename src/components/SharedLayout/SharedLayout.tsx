@@ -1,7 +1,18 @@
-import React from 'react'
+import Header from "../Header/Header.tsx";
+import Sidebar from "../Sidebar/Sidebar.tsx";
 
-export default function SharedLayout() {
+export type SharedProps = {
+  children: React.ReactElement;
+};
+
+function SharedLayout({ children }: SharedProps) {
   return (
-    <div>SharedLayout</div>
-  )
+    <div>
+      <Header />
+      <Sidebar />
+      {children}
+    </div>
+  );
 }
+
+export default SharedLayout;
