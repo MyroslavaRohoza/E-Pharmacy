@@ -2,8 +2,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   --main-black: #1d1e21;
-  --accent: #59b17a;
-  --accent2: #e85050;
+  --accent-green: #59b17a;
+  --red: #e85050;
   --text: #dcdddf;
   --background1: #e7f1ed;
   --background2: #f7f8fa;
@@ -11,7 +11,6 @@
   --decoration: #f9f9f9;
   --confirmed: #8059e4;
   --pending: #f79042;
-  --cancelled: #e85050;
   --processing: #70a6e8;
 }
 

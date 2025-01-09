@@ -1,0 +1,21 @@
+.title {
+  color: var(--main-black);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+}
+
+.accent {
+  color: var(--accent-green);
+}
+
+.titleContainer {
+  position: relative;
+}
+
+.pillImg {
+  position: absolute;
+  bottom: 99px;
+  right: 20px;
+}
