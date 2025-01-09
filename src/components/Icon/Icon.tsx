@@ -2,15 +2,11 @@ import css from "./icon.module.css";
 import { icons as sprite } from "../../assets/index.js";
 import { forwardRef } from "react";
 
-export type IconProps = {
+type IconProps = Partial<React.SVGProps<SVGSVGElement>> & {
   id: string;
-  width: number;
-  height: number;
-  fill: string;
-  stroke: string;
   addClass?: string;
-  props: unknown[];
-} & React.SVGProps<SVGSVGElement>;
+  props?: unknown[];
+};
 
 const Icon = forwardRef<SVGSVGElement, IconProps>(
   ({ id, width, height, fill, stroke, addClass = "", ...props }, ref) => (
@@ -20,7 +16,7 @@ const Icon = forwardRef<SVGSVGElement, IconProps>(
       fill={fill}
       stroke={stroke}
       aria-hidden="true"
-      className={`${addClass} ${css.icon}`}
+      className={`${css.icon} ${addClass}`}
       ref={ref}
       {...props}
     >

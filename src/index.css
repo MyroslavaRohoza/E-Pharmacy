@@ -14,3 +14,8 @@
   --cancelled: #e85050;
   --processing: #70a6e8;
 }
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}

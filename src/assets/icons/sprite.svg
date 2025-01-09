@@ -24,9 +24,6 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 8l16 16"></path>
 </symbol>
-<symbol id="icon-logo" viewBox="0 0 32 32">
-<path d="M0 0h32v32h-32v-32z"></path>
-</symbol>
 <symbol id="icon-iconamoon_menu-burger-horizontal-duotone" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M4 8.001h24M4 16.001h24M4 24.001h24"></path>
 </symbol>
@@ -44,10 +41,6 @@
 </symbol>
 <symbol id="icon-ic_round-dashboard" viewBox="0 0 32 32">
 <path d="M5.468 17.316h7.896c0.724 0 1.316-0.592 1.316-1.316v-10.528c0-0.724-0.592-1.316-1.316-1.316h-7.896c-0.724 0-1.316 0.592-1.316 1.316v10.528c0 0.724 0.592 1.316 1.316 1.316zM5.468 27.844h7.896c0.724 0 1.316-0.592 1.316-1.316v-5.264c0-0.724-0.592-1.316-1.316-1.316h-7.896c-0.724 0-1.316 0.592-1.316 1.316v5.264c0 0.724 0.592 1.316 1.316 1.316zM18.628 27.844h7.896c0.724 0 1.316-0.592 1.316-1.316v-10.528c0-0.724-0.592-1.316-1.316-1.316h-7.896c-0.724 0-1.316 0.592-1.316 1.316v10.528c0 0.724 0.592 1.316 1.316 1.316zM17.312 5.471v5.264c0 0.724 0.592 1.316 1.316 1.316h7.896c0.724 0 1.316-0.592 1.316-1.316v-5.264c0-0.724-0.592-1.316-1.316-1.316h-7.896c-0.724 0-1.316 0.592-1.316 1.316z"></path>
-</symbol>
-<symbol id="icon-Mask-group" viewBox="0 0 32 32">
-<path fill="#000" style="fill: var(--color1, #000)" d="M0 0h32v32h-32v-32z"></path>
-<path fill="#59b17a" style="fill: var(--color2, #59b17a)" d="M0 0h32v32h-32v-32z"></path>
 </symbol>
 </defs>
 </svg>
